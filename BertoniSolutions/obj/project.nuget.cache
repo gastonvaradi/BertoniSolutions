@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cx3YN2iNE/J1X5yPYrVocyB0fJZwpIpfP/S0CsFjwK6BZid1yrnP3J5qe21ZKhjS171Qqp6mKzxDL9pmtQdp9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gaston\\Desktop\\BertoniSolutions\\BertoniSolutions\\BertoniSolutions\\BertoniSolutions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gaston\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

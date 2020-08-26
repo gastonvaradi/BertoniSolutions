@@ -1,0 +1,55 @@
+﻿@inject BertoniSolutions.Services.Services.AlbumsServices albumServices;
+
+@{
+    var albums = albumServices.GetAlbums().Select(a => new AlbumViewModel(a));
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lista de Albums
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    @foreach (var album in albums)
+                    {
+                        <a class="dropdown-item" href="#" idDrop="@album.Id">@album.Title</a>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+          <button type="button" class="btn btn-info" id="visualizarAlbum" onclick="visualizar();" idDropVisualizar="0">Visualizar Álbum</button>
+        </div>
+    </div>
+    <div class="row" id="tablephotos">
+
+    </div>
+</div>
+
+
+@section Scripts {
+    <script type="text/javascript">
+        
+        function visualizar() {
+            
+            $.ajax({
+                type: "GET",
+                url: 'https://localhost:44393/Albums/Fotos/' + document.getElementById("visualizarAlbum").getAttribute("idDropVisualizar"), // <-- Where should this point?
+                //contentType: "application/json; charset=utf-8",
+                //dataType: "html",
+                success: function (data) {
+                    $('#tablephotos').html(data);
+                }
+            }
+            );
+            
+        }
+
+        $(".dropdown-item").click(function () {
+            var sel = $(this).attr("idDrop");
+            document.getElementById("visualizarAlbum").setAttribute("idDropVisualizar", sel)
+        });
+    </script>
+}

@@ -1,0 +1,17 @@
+﻿@model List<BertoniSolutions.Models.ComentarioViewModel>
+
+<table>
+    @foreach (var com in Model)
+    {
+
+        <tr>
+            <td>@com.Id</td>
+            <td>@com.Body</td>
+            <td>@com.Email</td>
+            <td>@com.Name</td>
+            <td>@com.PostId</td>
+        </tr>
+
+    }
+
+</table>

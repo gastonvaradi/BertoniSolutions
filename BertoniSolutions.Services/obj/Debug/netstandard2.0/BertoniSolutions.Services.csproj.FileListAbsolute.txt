@@ -1,0 +1,9 @@
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\bin\Debug\netstandard2.0\BertoniSolutions.Services.deps.json
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\bin\Debug\netstandard2.0\BertoniSolutions.Services.dll
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\bin\Debug\netstandard2.0\BertoniSolutions.Services.pdb
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\obj\Debug\netstandard2.0\BertoniSolutions.Services.csprojAssemblyReference.cache
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\obj\Debug\netstandard2.0\BertoniSolutions.Services.AssemblyInfoInputs.cache
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\obj\Debug\netstandard2.0\BertoniSolutions.Services.AssemblyInfo.cs
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\obj\Debug\netstandard2.0\BertoniSolutions.Services.dll
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\obj\Debug\netstandard2.0\BertoniSolutions.Services.pdb
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions.Services\obj\Debug\netstandard2.0\BertoniSolutions.Services.csproj.CoreCompileInputs.cache
