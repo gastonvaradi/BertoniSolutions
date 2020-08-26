@@ -36,7 +36,7 @@
             
             $.ajax({
                 type: "GET",
-                url: 'https://localhost:44393/Albums/Fotos/' + document.getElementById("visualizarAlbum").getAttribute("idDropVisualizar"), // <-- Where should this point?
+                url: 'https://localhost:44393/Albums/Fotos/' + document.getElementById("visualizarAlbum").getAttribute("idDropVisualizar"),
                 //contentType: "application/json; charset=utf-8",
                 //dataType: "html",
                 success: function (data) {
@@ -51,5 +51,20 @@
             var sel = $(this).attr("idDrop");
             document.getElementById("visualizarAlbum").setAttribute("idDropVisualizar", sel)
         });
+
+        function ver(id) {
+
+            $.ajax({
+                type: "GET",
+                url: 'https://localhost:44393/Albums/Comentarios/' + id,
+                //contentType: "application/json; charset=utf-8",
+                //dataType: "html",
+                success: function (data) {
+                    $('#comentarios').html(data);
+                }
+            }
+            );
+
+        }
     </script>
 }

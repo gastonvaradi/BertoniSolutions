@@ -25,6 +25,9 @@
       "BertoniSolutions/1.0.0": {
         "dependencies": {
           "BertoniSolutions.Services": "1.0.0",
+          "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.6",
+          "jQuery.Ajax.Unobtrusive": "2.0.20710",
+          "jquery.ui.unobtrusive": "0.1103.2101",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -313,6 +316,18 @@
         },
         "compile": {
           "BertoniSolutions.dll": {}
+        }
+      },
+      "jQuery/1.8.0": {},
+      "jQuery.Ajax.Unobtrusive/2.0.20710": {
+        "dependencies": {
+          "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.6"
+        }
+      },
+      "jquery.ui.unobtrusive/0.1103.2101": {},
+      "Microsoft.jQuery.Unobtrusive.Ajax/3.2.6": {
+        "dependencies": {
+          "jQuery": "1.8.0"
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -2036,6 +2051,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-laDFQRJrIRHT0Z0GVYklMt3bE0iu0MZFJwHwg21kt3SHb7Bj8TdNiM3K+ZdK1DzB8ZxKy8z7NkJvwMas+dmHBw==",
+      "path": "jquery/1.8.0",
+      "hashPath": "jquery.1.8.0.nupkg.sha512"
+    },
+    "jQuery.Ajax.Unobtrusive/2.0.20710": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pi9soMRdzL30AMb/gXPLjTLzjYs3/Ac0S51h4M28Iyc4rYQ4ln1fZxPTEmEbnUYRZzuP2b5P2saBq9llJ1e1tg==",
+      "path": "jquery.ajax.unobtrusive/2.0.20710",
+      "hashPath": "jquery.ajax.unobtrusive.2.0.20710.nupkg.sha512"
+    },
+    "jquery.ui.unobtrusive/0.1103.2101": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dw7KQ4Xmwr0nFsfjFoD2GIAbZZ/1g7m/i7I6Po8UjIy77KtpIy/Uaz/EQE1+I+fdPBhtwC5+ydz9n8znOzLwrg==",
+      "path": "jquery.ui.unobtrusive/0.1103.2101",
+      "hashPath": "jquery.ui.unobtrusive.0.1103.2101.nupkg.sha512"
+    },
+    "Microsoft.jQuery.Unobtrusive.Ajax/3.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udg7ZBszgqxloQ+ShJRONKQAzPnJIlUhKZB+AIvZdKh7CDc5Nms69T9X0hN5i+NqMmQE6njkzdCcEb16lPdJTw==",
+      "path": "microsoft.jquery.unobtrusive.ajax/3.2.6",
+      "hashPath": "microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512"
     },
     "Newtonsoft.Json/12.0.3": {
       "type": "package",

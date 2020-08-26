@@ -12,8 +12,6 @@ C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\bin\D
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.csprojAssemblyReference.cache
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.AssemblyInfoInputs.cache
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.AssemblyInfo.cs
-C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.csproj.CoreCompileInputs.cache
-C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.RazorAssemblyInfo.cache
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.RazorAssemblyInfo.cs
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.TagHelpers.input.cache
@@ -41,3 +39,6 @@ C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\bin\D
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\Razor\Views\Albums\_TablePhotos.cshtml.g.cs
 C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\Razor\Views\Albums\_TableComents.cshtml.g.cs
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\obj\Debug\netcoreapp3.1\BertoniSolutions.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gaston\Desktop\BertoniSolutions\BertoniSolutions\BertoniSolutions\bin\Debug\netcoreapp3.1\libman.json

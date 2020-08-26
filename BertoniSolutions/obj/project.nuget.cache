@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cx3YN2iNE/J1X5yPYrVocyB0fJZwpIpfP/S0CsFjwK6BZid1yrnP3J5qe21ZKhjS171Qqp6mKzxDL9pmtQdp9w==",
+  "dgSpecHash": "auQIS52Ic+/gZQPOOPbSSRVYERrqCP19Zkx0TFB2Hh5ztIWqpG/Fh1vJ6GZCBQ1NkPagxeZcMz1gB87xmYWLTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gaston\\Desktop\\BertoniSolutions\\BertoniSolutions\\BertoniSolutions\\BertoniSolutions.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gaston\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\Gaston\\.nuget\\packages\\jquery.ajax.unobtrusive\\2.0.20710\\jquery.ajax.unobtrusive.2.0.20710.nupkg.sha512",
+    "C:\\Users\\Gaston\\.nuget\\packages\\jquery.ui.unobtrusive\\0.1103.2101\\jquery.ui.unobtrusive.0.1103.2101.nupkg.sha512",
+    "C:\\Users\\Gaston\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.2.6\\microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512",
     "C:\\Users\\Gaston\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []

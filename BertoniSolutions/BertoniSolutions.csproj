@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="jQuery.Ajax.Unobtrusive" Version="2.0.20710" />
+    <PackageReference Include="jquery.ui.unobtrusive" Version="0.1103.2101" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Ajax" Version="3.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BertoniSolutions.Services\BertoniSolutions.Services.csproj" />
   </ItemGroup>
 

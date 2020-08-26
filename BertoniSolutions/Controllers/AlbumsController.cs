@@ -30,16 +30,14 @@ namespace BertoniSolutions.Controllers
         public ActionResult Fotos(int id)
         {
             var photos = this._albumsServices.GetPhotos(id);
-            //return new JsonResult(JsonSerializer.Serialize(photos.Select(p => new PhotoViewModel(p))));
-            return PartialView("~/Views/Albums/_TablePhotos", photos.Select(p => new PhotoViewModel(p)).ToList());
+            return PartialView("_TablePhotos", photos.Select(p => new PhotoViewModel(p)).ToList());
         }
 
         [HttpGet]
         public ActionResult Comentarios(int id)
         {
             var comentarios = this._albumsServices.GetComentarios(id);
-            //return new JsonResult(JsonSerializer.Serialize(photos.Select(p => new PhotoViewModel(p))));
-            return PartialView("~/Views/Albums/_TableComents", comentarios.Select(p => new ComentarioViewModel(p)).ToList());
+            return PartialView("_TableComents", comentarios.Select(p => new ComentarioViewModel(p)).ToList());
         }
 
 
